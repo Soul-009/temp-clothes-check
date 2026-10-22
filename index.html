@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>What Should I Wear?</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      label, input, button, p {
+        display: block;
+        margin-bottom: 10px;
+      }
+      #result {
+        min-height: 24px;
+      }
+      .error {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>What Should I Wear?</h1>
+
+    <label for="temperature">Temperature in Fahrenheit:</label>
+    <input id="temperature" type="text" placeholder="Enter temperature" />
+    <button id="checkButton" type="button">Check</button>
+
+    <p id="result"></p>
+
+    <script src="script.js"></script>
+  </body>
+</html>
